@@ -1,5 +1,3 @@
-// 'Hi my name is Mathias'
-
 function reverse(str) {
 
     // Check the input
@@ -18,10 +16,9 @@ function reverse(str) {
     return backwardsArray.join('');
    // return backwardsArray.toString;
 }
+reverse('Hi my name is Mathias');
 
 function reverse2(str) {
-    return str.split('').reverse().join('');
+    return console.log(str.split('').reverse().join(''));
 }
-
 reverse2('Hi my name is Mathias');
-reverse('Hi my name is Mathias');
